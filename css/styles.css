@@ -487,100 +487,86 @@ strategy-icon {
 */
 .project {}
 
-.porto-link 
-{
-display: block;
-    }
-
-
-
 .project-list {
-  display: flex;
-  flex-wrap: wrap;
-  column-gap: 24px;
-  row-gap: 48px;
-  
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+    
 }
 
 .overlay {
-  padding: 8px;
-  background-color: #3f51b5;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  transform: translateY(100%);
-  transition: transform 250ms ease-in-out;
+    padding: 8px;
+    background-color: #3f51b5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: translateY(100%);
+    transition: transform 250ms ease-in-out;
 }
 
 .overlay-wrapper {
-  display:flex;
-  align-items: center;
-  position: relative;
-  overflow: hidden;
+    display:flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
 }
 
 .overlay-desc {
-  color: #F4F4FD;
-  font-size: 16px;
-  font-family: Roboto;
-  line-height: 24px;
-  letter-spacing: 0.32px;
+    color: #F4F4FD;
+    font-size: 16px;
+    font-family: Roboto;
+    line-height: 24px;
+    letter-spacing: 0.32px;
 }
 
- 
 
 .project-item {
-  width: calc((100% - 48px) / 3);
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    width: calc((100% - 48px) / 3);
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .project-image {
-  
 }
-
-.porto-link:hover {
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-      }
 
 .project-item:hover,
 .project-item:focus {
-  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px 
-  rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 
 }
 
 
 .project-item:hover .overlay {
-  transform: translateY(0);
+    transform: translateY(0);
 }
 
 .project-container {
-  padding: 32px 16px;
-  border: 1px solid #e7e9fc;
-  border-top: none;
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
 }
 
 .project-title {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2E2F42;
-  margin-bottom: 8px
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    margin-bottom: 8px
 }
 
 .project-par {
-  font-family: "Roboto",sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
+    font-family: "Roboto",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 
 /**
