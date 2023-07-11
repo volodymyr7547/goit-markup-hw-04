@@ -494,6 +494,9 @@ strategy-icon {
     row-gap: 48px;
     
 }
+.project-item {
+  display: block;
+}
 
 .overlay {
     padding: 8px;
