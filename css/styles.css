@@ -521,11 +521,14 @@ strategy-icon {
 }
 
 .overlay-desc {
-    color: #F4F4FD;
+    color: #f4f4fd;
     font-size: 16px;
     font-family: Roboto;
-    line-height: 24px;
-    letter-spacing: 0.32px;
+    line-height: 1.5;
+    letter-spacing: 0.02em; 
+    padding: 40px 32px; 
+    background-color: #4d5ae5;
+    
 }
 
 
