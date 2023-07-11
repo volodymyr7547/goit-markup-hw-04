@@ -533,8 +533,9 @@ strategy-icon {
 
 
 .project-item {
+  display: block;
     width: calc((100% - 48px) / 3);
-    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .project-image {
@@ -548,7 +549,7 @@ strategy-icon {
 
 
 .project-item:hover .overlay {
-    transform: translateY(0);
+  transform: translateY(0%);
 }
 
 .project-container {
