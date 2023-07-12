@@ -558,7 +558,7 @@ strategy-icon {
 }
 
 
-.project-item:hover .overlay {
+.project-item:hover {
   transform: translateY(0%);
 }
 
