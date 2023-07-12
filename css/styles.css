@@ -3,13 +3,28 @@
   | Common styles
   |============================
 */
+:root {
+--page-color: #ffffff;
+--logo-color: #4D5AE5;
+--text-color: #2E2F42;
+--title-background: #f4f4fd;
+--link-color: #8e8f99;
+--link-color2: #404bbf;
+}
 
+*, 
+::after, 
+::before{
+    padding: 0px;
+    margin: 0px;
+  }
 
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #FFFFFF;
 }
+
 
   /*Reset*/
 
@@ -38,14 +53,7 @@ h1,h2,h3,h4,h5,h6,p {
   margin: 0;
 }
 
-:root {
---page-color: #ffffff;
---logo-color: #4D5AE5;
---text-color: #2E2F42;
---title-background: #f4f4fd;
---link-color: #8e8f99;
---link-color2: #404bbf;
-}
+
 
   /*Base styles*/
 
