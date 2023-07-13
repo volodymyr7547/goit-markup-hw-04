@@ -526,6 +526,7 @@ strategy-icon {
     transition: transform 250ms ease-in-out;
 }
 
+
 .overlay-wrapper {
     display:flex;
     align-items: center;
@@ -591,10 +592,18 @@ strategy-icon {
     font-family: "Roboto",sans-serif;
     font-style: normal;
     font-weight: 400;
+   
+  
+    color: #434455;
+
+    position: absolute;
+    top:0; 
+    
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: #f4f4fd
+    
 }
 .portfolio-link:hover{
   box-shadow: 
