@@ -272,7 +272,7 @@ h1,h2,h3,h4,h5,h6,p {
 */
 
 .filter-list {
-
+  display: flex;
   justify-content: center;
   gap: 24px;
   margin-bottom: 72px;
@@ -561,15 +561,16 @@ strategy-icon {
 .project-item:hover .overlay {
   transform: translateY(0%);
 }
-.image {
 
-}
 .project-container {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none
 
 }
+ .image {
+  
+ }
 
 .project-title {
     font-family: 'Roboto';
