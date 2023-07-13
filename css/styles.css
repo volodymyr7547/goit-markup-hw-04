@@ -272,7 +272,7 @@ h1,h2,h3,h4,h5,h6,p {
 */
 
 .filter-list {
-  display: flex;
+
   justify-content: center;
   gap: 24px;
   margin-bottom: 72px;
