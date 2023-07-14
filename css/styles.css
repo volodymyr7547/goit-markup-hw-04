@@ -313,7 +313,9 @@ h1,h2,h3,h4,h5,h6,p {
     background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
    }
 
-
+   .filter-button .overlay-desc:hover{
+    transform: translateY(0%);
+   }
 /**
 |============================
 | Strategy section
